@@ -1,9 +1,16 @@
 # Initialises Terraform providers and sets their version numbers.
 
-provider "azurerm" {
-    version = "1.38.0"
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 3.25.0"
+    }
+  }
+
+  required_version = ">= 1.3.1"
 }
 
-provider "tls" {
-    version = "2.1.0"
+provider "azurerm" {
+  features {}
 }

@@ -6,5 +6,6 @@ Run this example using:
 
 ```bash
 cd example-3/scripts
+terraform init
 terraform apply
 ```
