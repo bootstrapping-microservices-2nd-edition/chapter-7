@@ -1,5 +1,6 @@
+#
 # Creates a managed Kubernetes cluster on Azure.
-
+#
 resource "azurerm_kubernetes_cluster" "cluster" {
     name                = var.app_name
     location            = var.location
