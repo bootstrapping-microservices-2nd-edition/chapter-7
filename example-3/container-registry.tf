@@ -8,11 +8,3 @@ resource "azurerm_container_registry" "container_registry" {
   admin_enabled       = true
   sku                 = "Basic"
 }
-
-output "registry_hostname" {
-  value = azurerm_container_registry.container_registry.login_server
-}
-
-output "registry_un" {
-  value = azurerm_container_registry.container_registry.admin_username
-}
