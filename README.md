@@ -1,6 +1,6 @@
 # Chapter-7
 
-Code and examples for Chapter 7 of [Bootstrapping Microservices](https://bit.ly/3PsaS6v).
+Code and examples for Chapter 7 of [Bootstrapping Microservices](https://www.bootstrapping-microservices.com).
 
 In chapter 7 we build a production environment for microservices on Kubernetes using Terraform.
 
